@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6366f1;
+  --color-primary-hover: #4f46e5;
+  --color-dark: #0f172a;
+  --color-dark-lighter: #1e293b;
+  --color-light: #f8fafc;
+}
+
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+html[data-theme="light"] body {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar - Dark */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Custom scrollbar - Light */
+html[data-theme="light"] ::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+html[data-theme="light"] ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+html[data-theme="light"] ::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Light mode color overrides */
+html[data-theme="light"] {
+  --tw-text-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
+}
+
+html[data-theme="light"] .text-white {
+  color: rgb(15 23 42);
+}
+
+html[data-theme="light"] .text-slate-100 {
+  color: rgb(15 23 42);
+}
+
+html[data-theme="light"] .text-slate-300 {
+  color: rgb(30 41 59);
+}
+
+html[data-theme="light"] .text-slate-400 {
+  color: rgb(71 85 105);
+}
+
+html[data-theme="light"] .text-slate-700 {
+  color: rgb(51 65 85);
+}
+
+html[data-theme="light"] .bg-slate-900 {
+  background-color: rgb(248 250 252);
+}
+
+html[data-theme="light"] .bg-slate-800 {
+  background-color: rgb(241 245 249);
+}
+
+html[data-theme="light"] .bg-slate-900\/50 {
+  background-color: rgba(248, 250, 252, 0.5);
+}
+
+html[data-theme="light"] .bg-slate-800\/50 {
+  background-color: rgba(241, 245, 249, 0.5);
+}
+
+html[data-theme="light"] .bg-slate-800\/30 {
+  background-color: rgba(241, 245, 249, 0.3);
+}
+
+html[data-theme="light"] .bg-slate-800\/80 {
+  background-color: rgba(241, 245, 249, 0.8);
+}
+
+html[data-theme="light"] .border-slate-700 {
+  border-color: rgb(226 232 240);
+}
+
+html[data-theme="light"] .border-slate-800 {
+  border-color: rgb(226 232 240);
+}
