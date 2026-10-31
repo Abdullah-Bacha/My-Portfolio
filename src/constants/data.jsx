@@ -181,17 +181,6 @@ export const projectsData = [
     demo: 'https://www.carwow.co.uk',
   },
   {
-    title: 'EduSphere - Educational Platform',
-    description:
-      'Complete educational platform with public-facing website and dedicated Student, Teacher, and Admin Dashboards. Enables role-specific workflows for learning, teaching, and platform management.',
-    tags: ['Next.js', 'React.js', 'MongoDB', 'Node.js', 'JWT Auth', 'Tailwind CSS'],
-    iconName: 'Users',
-    gradientFrom: 'from-green-500',
-    gradientTo: 'to-emerald-700',
-    cardGradient: 'from-green-500 to-emerald-700',
-    demo: 'https://edu-sphere-the-ultimate-educational.vercel.app/login',
-  },
-  {
     title: 'Keydevs Technologies Corporate Website',
     description:
       'Official company website and primary digital face of the business. Interactive services showcase, portfolio of 16 projects with detail pages, and smart mega menu navigation driven from central data layer.',
