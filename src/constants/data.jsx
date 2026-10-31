@@ -171,6 +171,7 @@ export const projectsData = [
   },
   {
     title: 'Carwow - Car Marketplace Platform',
+    image: '/projects/carwow.jpg',
     description:
       'Responsive automotive marketplace featuring live user-facing vehicle portal and Admin Dashboard for managing vehicles, listings, users, and platform content with seamless browsing and management.',
     tags: ['React.js', 'Next.js', 'Material UI', 'REST API', 'Tailwind CSS'],
@@ -182,6 +183,7 @@ export const projectsData = [
   },
   {
     title: 'Keydevs Technologies Corporate Website',
+    image: '/projects/keydevs.jpg',
     description:
       'Official company website and primary digital face of the business. Interactive services showcase, portfolio of 16 projects with detail pages, and smart mega menu navigation driven from central data layer.',
     tags: ['Next.js 16', 'React 19', 'Tailwind CSS v4', 'Framer Motion'],
@@ -193,6 +195,7 @@ export const projectsData = [
   },
   {
     title: 'Dev Studio Agency Portfolio',
+    image: '/projects/dev-studio.jpg',
     description:
       'Agency style portfolio website with cinematic page transitions and scroll triggered GSAP animations. Built from reusable layout components and optimized against Lighthouse metrics.',
     tags: ['React.js', 'GSAP', 'Tailwind CSS', 'DaisyUI', 'React Router'],
@@ -205,6 +208,7 @@ export const projectsData = [
   },
   {
     title: 'Movie Discovery App',
+    image: '/projects/movie-app.jpg',
     description:
       'Search any film, view ratings, cast, and trending titles, save favorites to personal watchlist. Custom React hooks keep the interface fast with no unnecessary refreshes.',
     tags: ['React.js', 'Context API', 'Tailwind CSS', 'TMDB API'],
@@ -217,6 +221,7 @@ export const projectsData = [
   },
   {
     title: 'News Discovery Platform',
+    image: '/projects/news-app.jpg',
     description:
       'Live news platform with category browsing and instant search. Intelligent RTK Query caching reduced repeated server requests by ~60%, so users see articles faster and app uses less data.',
     tags: ['React.js', 'Redux Toolkit', 'RTK Query', 'Tailwind CSS', 'News API'],
@@ -229,6 +234,7 @@ export const projectsData = [
   },
   {
     title: 'MyBindle Social Platform',
+    image: '/projects/mybindle.jpg',
     description:
       'Modern, fully responsive landing page for a social connection platform. Built with reusable sections, smooth animations, and mobile first layout optimized for all devices.',
     tags: ['React.js', 'Tailwind CSS'],
@@ -241,6 +247,7 @@ export const projectsData = [
   },
   {
     title: 'Employee Management System',
+    image: '/projects/ems.jpg',
     description:
       'HR style internal tool for maintaining employee records: add, view, update, and remove employees through a clean, validated interface with responsive table layout and persistent data storage.',
     tags: ['React.js', 'Tailwind CSS', 'Bootstrap', 'React Icons'],
@@ -253,6 +260,7 @@ export const projectsData = [
   },
   {
     title: 'CraveDash Storefront',
+    image: '/projects/cravedash.jpg',
     description:
       'UK grocery delivery platform with a responsive customer storefront for mobile and desktop, and a Super Admin dashboard with admin layout, sidebar dropdown menus, profile header and statistics cards, managed through backend APIs.',
     tags: ['React.js', 'Next.js', 'DaisyUI', 'GSAP', 'Tailwind CSS'],
@@ -264,6 +272,7 @@ export const projectsData = [
   },
   {
     title: 'Chef Grill Café',
+    image: '/projects/chef-grill.jpg',
     description:
       'Digital menu and ordering website with food categories, item search, portion sizes and prices, a cart summary with delivery fee calculation and WhatsApp order handoff, plus an admin dashboard for menu items, categories, sizes and prices.',
     tags: ['React.js', 'Next.js', 'JavaScript', 'Tailwind CSS'],
@@ -275,6 +284,7 @@ export const projectsData = [
   },
   {
     title: 'Porto Piri Piri',
+    image: '/projects/porto-piri-piri.jpg',
     description:
       'Customer-facing website for a Glasgow restaurant and takeaway with a hero slider, signature items carousel, menu, location, franchise and careers sections, Order Now calls to action, and an admin dashboard that manages menu and site content through backend APIs.',
     tags: ['React.js', 'Next.js', 'Tailwind CSS', 'Lucide Icons', 'JavaScript'],

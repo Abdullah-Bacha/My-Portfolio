@@ -47,16 +47,27 @@ const Projects = () => {
                 className="flex flex-col bg-slate-900/50 rounded-3xl border border-slate-700/50 overflow-hidden hover:border-pink-500/30 transition-all duration-300 group"
               >
                 <div className="relative aspect-video overflow-hidden">
-                  <div className={`absolute inset-0 bg-gradient-to-br ${project.cardGradient} opacity-20 group-hover:opacity-40 transition-opacity duration-500`}></div>
-                  <div className="absolute inset-0 flex items-center justify-center p-8">
-                    <div className="transform group-hover:scale-110 transition-transform duration-500">
-                      <ProjectIcon
-                        iconName={project.iconName}
-                        gradientFrom={project.gradientFrom}
-                        gradientTo={project.gradientTo}
-                      />
-                    </div>
-                  </div>
+                  {project.image ? (
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      loading="lazy"
+                      className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                    />
+                  ) : (
+                    <>
+                      <div className={`absolute inset-0 bg-gradient-to-br ${project.cardGradient} opacity-20 group-hover:opacity-40 transition-opacity duration-500`}></div>
+                      <div className="absolute inset-0 flex items-center justify-center p-8">
+                        <div className="transform group-hover:scale-110 transition-transform duration-500">
+                          <ProjectIcon
+                            iconName={project.iconName}
+                            gradientFrom={project.gradientFrom}
+                            gradientTo={project.gradientTo}
+                          />
+                        </div>
+                      </div>
+                    </>
+                  )}
                 </div>
 
                 <div className="p-8 flex flex-col flex-grow">
