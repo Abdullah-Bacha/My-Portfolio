@@ -160,6 +160,7 @@ export const educationData = [
 export const projectsData = [
   {
     title: 'Wolt - Food & Delivery Platform',
+    image: '/projects/wolt.jpg',
     description:
       'Responsive food and local-commerce platform with user-facing discovery portal, and dedicated Restaurant and Branch Management Dashboards for managing operations, branches, orders, and workflows.',
     tags: ['React.js', 'Next.js', 'Tailwind CSS', 'REST API', 'Redux Toolkit'],
