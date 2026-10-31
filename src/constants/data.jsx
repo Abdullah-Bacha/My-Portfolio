@@ -189,7 +189,7 @@ export const projectsData = [
     gradientFrom: 'from-green-500',
     gradientTo: 'to-emerald-700',
     cardGradient: 'from-green-500 to-emerald-700',
-    demo: 'https://edu-sphere-the-ultimate-educational.vercel.app/',
+    demo: 'https://edu-sphere-the-ultimate-educational.vercel.app/login',
   },
   {
     title: 'Keydevs Technologies Corporate Website',
